@@ -1,0 +1,10 @@
+name: 'Action Test'
+description: 'Action Test'
+author: 'DemoTest'
+inputs:
+  input:
+    description: 'This is sample input'
+    required: false
+runs:
+  using: 'docker'
+  image: "Dockerfile"
